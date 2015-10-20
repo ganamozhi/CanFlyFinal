@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/4.0"
+        id          = "com.phonegap.example"
+        versionCode = "10" 
+        version     = "4.0.0" >
+
+
+    <name>CanFly.in</name>
+
+    <description>
+        CanFly
+    </description>
+    <gap:splash src="canflyloader.gif"   />
+	<preference name="SplashScreen" value="screen" />
+	<preference name="SplashScreenDelay" value="10000" />
+    <author href="http://anandhud.com" email="anandhud@unique4m.com">
+        Anandhu Dhanapal 
+    </author>
+    <icon src="canflylogo.png" />
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="Camera">
+	<param name="android-package" value="org.apache.cordova.camera.CameraLauncher" />
+    </feature>
+    
+
+    <content src="http://experimentsite.net/Ganapathi/canfly/" />
+    <access origin="*" />
+
+</widget>
